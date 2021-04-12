@@ -1,4 +1,11 @@
-.bck_secciones{
+.contenedor_acordeon:hover{
+  border: 1px solid yellow;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}.bck_secciones{
     width: 100%;
     height: 150px;
     background-position: center;
@@ -229,7 +236,7 @@
  /* CALIDAD */
 
 .contenedor_acordeon{
-	border: 1px solid black;
+	border: 1px solid #041328;
 	padding: 20px;
 	display: flex;
 	align-items: center;
@@ -237,8 +244,31 @@
 	margin-bottom: 10px;
 }
 
-.txt_acordeon_cifras:hover {
+.contenedor_acordeon:hover{
+  background-color: #041328;
+  border: 1px solid #041328;
+    -webkit-transition: color 900ms, background-color 900ms;
+  -moz-transition: color 900ms, background-color 900ms;
+  -o-transition: color 900ms, background-color 900ms;
+  transition: color 900ms, background-color 900ms;
+}
+
+
+.contenedor_acordeon:hover .txt_acordeon_cifras {
 color: #fff;
+}
+
+.contenedor_acordeon:hover .icon_acordeon {
+    border-left: 12px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.contenedor_acordeon:hover .icon_acordeon_active {
+  border-right: 8px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 12px solid #fff;
 }
 
 .txt_acordeon_cifras{
@@ -272,6 +302,9 @@ color: #fff;
 }
 
 .cont_enlaces_calidad{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 	width: 35%;
 }
 

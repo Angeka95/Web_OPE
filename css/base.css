@@ -120,6 +120,14 @@ a {
     transition: color 900ms, background-color 900ms;
 }
 
+.general{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+
 /*home*/
 
 .margin_left{
@@ -302,6 +310,7 @@ a {
   font-size: 2.4vh;
   line-height: 3vh;
   text-decoration: underline;
+  text-align: center;
 }
 
 .azul_claro{
@@ -462,7 +471,19 @@ a {
   height: 200px;
 }
 
-.plan:hover {
+.plan:hover{
+  width: 55%;
+  margin: 8px;
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 18%), 
+    rgb(2 9 22 / 18%) 
+    ),  
+    url(../images/home/plan.jpg);
+
+
+  background-size: cover;
+  background-position: center;
+  height: 200px;
 
 }
 
@@ -472,6 +493,20 @@ a {
   background-image: linear-gradient( 
     rgb(2 9 22 / 38%), 
     rgb(2 9 22 / 54%) 
+    ), 
+    url(../images/home/proyectos.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.proyectos:hover{
+  width: 35%;
+  margin: 8px;
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 18%), 
+    rgb(2 9 22 / 18%) 
     ), 
     url(../images/home/proyectos.jpg);
 
@@ -494,12 +529,41 @@ a {
   height: 200px;
 }
 
+.calidad:hover{
+  width: 35%;
+  margin: 8px;
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 18%), 
+    rgb(2 9 22 / 18%) 
+    ), 
+    url(../images/home/calidad.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+
+}
+
 .cifras{
   width: 55%;
   margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 38%), 
     rgb(2 9 22 / 54%) 
+    ), 
+    url(../images/home/cifras.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.cifras:hover{
+  width: 55%;
+  margin: 8px;
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 18%), 
+    rgb(2 9 22 / 18%) 
     ), 
     url(../images/home/cifras.jpg);
 
@@ -565,7 +629,7 @@ a {
   padding: 20px 40px;
   background-color: #fff;
   border: 1px solid #fff;
-  color: #020916;
+  color: #041328;
   text-transform: uppercase;
   font-size: 2.6vh;
   line-height: 3vh;
@@ -577,7 +641,7 @@ a {
 }
 
 .btn_blanco:hover {
-  background-color: #020916;
+  background-color: #041328;
   border: 1px solid #fff;
   color: #fff;
 
