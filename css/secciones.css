@@ -1,0 +1,293 @@
+.bck_secciones{
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bck_secciones_quienes{
+	background-image: url(../images/quienes_somos/bck.jpg);
+}
+
+.bck_secciones_cifras{
+	background-image: url(../images/sede_cifras/bck.jpg);
+}
+
+.bck_secciones_calidad{
+	background-image: url(../images/gestion_calidad/bck.jpg);
+}
+
+.cabezote_tit_secciones{
+	background-color: #041328;
+	padding: 30px 0px;
+}
+
+.cont_cabezote_descripcion{
+	padding: 20px 0px;
+	background-color: #f2f2f2;
+}
+
+.cabezote_descripcion{
+	width: 80%;
+	padding: 30px 10%;
+}
+
+.listado{
+	background-color: #041328;
+	width: 20%;
+}
+
+.elemento_listado{
+	color: #fff;
+	text-align: right;
+    padding: 15px 30px;
+    font-size: 3vh;
+    font-weight: 700;
+}
+
+.cont_text_list{
+	width:70%;
+	margin-left: 3%;
+}
+
+.cont_listado{
+	display: flex;
+	align-items: center;
+	margin: 10px 0px;
+}
+
+.bck_seccion_quienes{
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(2, 9, 22, 0.9), 
+      rgba(2, 9, 22, 0.9)
+    ),
+ url(../images/quienes_somos/equipo.jpg); 
+
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columna_1_seccion{
+	width:33%;
+	padding-right: 20px;
+}
+
+.equipo{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.contenedor_100{
+	width:100%;
+}
+
+
+
+ /* SEDE EN CIFRAS */
+.bck_cifras{
+	background-image: url(../images/sede_cifras/bck_sede_cifras.png);
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont_destacado_cifras{
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.cifras_izq{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-right: 2px solid #fff;
+}
+
+.cifras_der{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.destacado_cifras{
+	font-size: 4.5vh;
+	line-height: 4.8vh;
+	color: #fff;
+	font-style: italic;
+	width:100%;
+	text-align: center;
+}
+
+.cifra_interactiva{
+	font-size: 10.2vh;
+	line-height: 10.8vh;
+	font-weight: 900;
+	color: #fff;
+	width:100%;
+	text-align: center;
+
+}
+
+.cifras1{
+  width:100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.cont_img_cifras1{
+  width: 30%;
+
+}
+
+.cifras_img1{
+  top: -230px;
+  width: auto;
+}
+
+.img_cifras1{
+    width: 100%;
+    background-image: linear-gradient( 
+      rgb(2 9 22 / 10%), 
+      rgb(2 9 22 / 10%) ), 
+      url(../images/sede_cifras/Matriculados.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border: 3px solid #fff;
+}
+.borde_img1_cifras1{
+  margin: 14px;
+  border: 1px solid #e6e6e6;
+  height: 315px;
+
+}
+
+.cont_img_cifras2{
+	width: 70%;
+}
+
+.cifras_img2{
+  top: -230px;
+  width: auto;
+}
+
+.img_cifras2{
+    width: 100%;
+    background-image: linear-gradient( 
+      rgb(2 9 22 / 10%), 
+      rgb(2 9 22 / 10%) ), 
+      url(../images/sede_cifras/Tablero_matriculados.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    border: 3px solid #fff;
+}
+
+.cont_slider_cifras {
+	width: 100%;
+    overflow-x: hidden;
+    /*margin-left: 5%;*/
+    overflow-y: hidden;
+}
+
+.slide_img_cifras {
+    width: 40vw !important;
+    height: 31.8vw !important;
+}
+
+.overlay_blue_cifras {
+    height: 96%  !important;
+}
+
+.slide_cifras {
+    width: 46% !important;
+}
+
+.arrows_cifras {
+    width: 5vw !important;
+    margin-top: 0vh !important;
+    margin-left: 29vw !important;
+}
+
+ /* FIN SEDE EN CIFRAS */
+
+ /* CALIDAD */
+
+.contenedor_acordeon{
+	border: 1px solid black;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.txt_acordeon_cifras:hover {
+color: #fff;
+}
+
+.txt_acordeon_cifras{
+	font-size: 2.6vh;
+	line-height: 3vh;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-left: 18px;
+
+}
+
+.icon_acordeon {
+     width: 0; 
+     height: 0; 
+    border-left: 12px solid #041328;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.icon_acordeon_active {
+     width: 0; 
+     height: 0; 
+	border-right: 8px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 12px solid #041328;
+}
+
+.contenedor_enlaces {
+	display: flex;
+}
+
+.cont_enlaces_calidad{
+	width: 35%;
+}
+
+.img_logo_enlace{
+	width:auto;
+	height: 80px;
+}
+
+.enlace_calidad{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 20%;
+}
+
+
+
+ /* FIN CALIDAD */

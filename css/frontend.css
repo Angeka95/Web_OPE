@@ -1,0 +1,61 @@
+main {
+	position: relative
+}
+
+main.tx-unal-accesibilidad {
+	position: absolute
+}
+
+main.tx-unal-accesibilidad .panel-content {
+	padding: 1em
+}
+
+#name-office {
+	font-family: 'Ancizar sans';
+	padding: 20px 5% 20px 0px;
+	text-align: right;
+	background: #041328;
+	display: flex;
+    justify-content: flex-end;
+}
+
+#name-office h2 {
+	font-size: 0.8em;
+	font-family: 'Ancizar sans';
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+}
+
+#name-office h2 a {
+	color: #fff;
+	font-family: 'Ancizar sans';
+	text-decoration: underline;
+}
+
+.tx-unal-accesibilidad {
+	z-index: 2;
+	width: 100%;
+	left: 0;
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+}
+
+.circulo_azul{
+     width: 6px;
+     height: 6px;
+     margin: 0px 6px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #00ffee;
+     position: relative;
+
+}
+
+.cont_name{
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+}
