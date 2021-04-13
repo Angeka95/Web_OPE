@@ -187,15 +187,12 @@ a {
 }
 
 .margen_complete{
-  margin-left: 10%;
-  margin-right: 10%;
+
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .margen_complete_footer{
-  margin-left: 10%;
-  margin-right: 10%;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -204,7 +201,8 @@ a {
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center
+  align-items: center;
+  width:100%;
 }
 
 
@@ -301,7 +299,7 @@ a {
 
 .p_destacado{
   font-weight: 900;
-  color: #020916;
+  color: #041328;
 }
 
 .p_link{
@@ -458,7 +456,7 @@ a {
 }
 
 .plan{
-  width: 55%;
+  width: 57%;
   margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 38%), 
@@ -472,23 +470,15 @@ a {
 }
 
 .plan:hover{
-  width: 55%;
-  margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 18%), 
     rgb(2 9 22 / 18%) 
     ),  
     url(../images/home/plan.jpg);
-
-
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-
 }
 
 .proyectos{
-  width: 35%;
+  width: 40%;
   margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 38%), 
@@ -502,21 +492,15 @@ a {
 }
 
 .proyectos:hover{
-  width: 35%;
-  margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 18%), 
     rgb(2 9 22 / 18%) 
     ), 
     url(../images/home/proyectos.jpg);
-
-  background-size: cover;
-  background-position: center;
-  height: 200px;
 }
 
 .calidad{
-  width: 35%;
+  width: 40%;
   margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 38%), 
@@ -530,22 +514,16 @@ a {
 }
 
 .calidad:hover{
-  width: 35%;
-  margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 18%), 
     rgb(2 9 22 / 18%) 
     ), 
     url(../images/home/calidad.jpg);
 
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-
 }
 
 .cifras{
-  width: 55%;
+  width: 57%;
   margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 38%), 
@@ -559,17 +537,11 @@ a {
 }
 
 .cifras:hover{
-  width: 55%;
-  margin: 8px;
   background-image: linear-gradient( 
     rgb(2 9 22 / 18%), 
     rgb(2 9 22 / 18%) 
     ), 
     url(../images/home/cifras.jpg);
-
-  background-size: cover;
-  background-position: center;
-  height: 200px;
 }
 /*
 .cont_linea_campos1{
@@ -604,8 +576,8 @@ a {
 .btn_azul{
   width: fit-content;
   padding: 20px 40px;
-  background-color: #020916;
-  border: 1px solid #020916;
+  background-color: #041328;
+  border: 1px solid #041328;
   color: #fff;
   text-transform: uppercase;
   font-size: 2.6vh;
@@ -619,8 +591,8 @@ a {
 
 .btn_azul:hover {
   background-color: #fff;
-  border: 1px solid #020916;
-  color: #020916;
+  border: 1px solid #041328;
+  color: #041328;
 
 }
 
@@ -845,7 +817,22 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.contenedor{
+  display: flex;
+    flex-wrap: wrap;
+}
+
 /*fin home*/
+/*
+#content{
+
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+}
+*/
+
 
 @media only screen and (max-width:1200px) {
 
@@ -862,27 +849,7 @@ a {
   width: 80%;
 }
 
-.cont_campos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.plan {
-    width: 80%;
-  }
-
-.proyectos{
-  width: 80%;
-  }
-
-.calidad {
-    width: 80%;
-  }
-
-.cifras{
-  width: 80%;
-  }
 
 .cont_tramites {
     flex-wrap: wrap;
@@ -909,8 +876,70 @@ a {
   margin-bottom: 100px;
 }
 
+.cont_image{
+  top: -153px;
 }
 
+.img_modulo1{
+  position:inherit;
+  top: 375px;
+  width: 285px;
+}
+
+.img_modulo2{
+  position:inherit;
+   width: 260px;
+}
+
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+.text_footer{
+  width:100%;
+  text-align:center;
+}
+
+
+.espacio_sup_responsive{
+  margin-top:20px;
+
+}
+
+.btn_center_responsive{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+
+.cont_campos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: 80%;
+  }
+
+.proyectos{
+  width: 80%;
+  }
+
+.calidad {
+    width: 80%;
+  }
+
+.cifras{
+  width: 80%;
+  }
+
+
+
+
+}
 
 @media only screen and (max-width:600px) {
 
