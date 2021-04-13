@@ -217,7 +217,7 @@ a {
 }
 
 .titulo_blanco {
-    font-size: 3.2em;
+    font-size: 2.6em;
     line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -544,15 +544,7 @@ a {
     ), 
     url(../images/home/cifras.jpg);
 }
-/*
-.cont_linea_campos1{
-  width:30%;
-}
-.linea_campos1{loader
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
-}
-*/
+
 
 .bck_campos{
   background: linear-gradient(    
@@ -583,7 +575,7 @@ a {
   text-transform: uppercase;
   font-size: 1em;
   line-height: 1.2em;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
   -webkit-transition: color 900ms, background-color 900ms;
   -moz-transition: color 900ms, background-color 900ms;
   -o-transition: color 900ms, background-color 900ms;
@@ -606,7 +598,7 @@ a {
   text-transform: uppercase;
   font-size: 1em;
   line-height: 1.2em;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
   -webkit-transition: color 900ms, background-color 900ms;
   -moz-transition: color 900ms, background-color 900ms;
   -o-transition: color 900ms, background-color 900ms;
@@ -787,7 +779,7 @@ a {
   font-size: 1.2em;
   line-height: 1.2em;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
 }
 
 .text_footer_azul{
@@ -795,7 +787,7 @@ a {
   font-size: 1.2em;
   line-height: 1.2em;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
 }
 
 .destacado_text_footer{
@@ -824,15 +816,60 @@ a {
     flex-wrap: wrap;
 }
 
-/*fin home*/
-/*
-#content{
 
-    margin: 0 auto;
-    max-width: 1400px;
-    width: 100%;
+.tit_form{
+    font-size: 1.2em;
+  line-height: 1.2em;
+  color:#fff;
+  text-align: left;
+  margin-bottom:4px;
+  font-weight: 700;
+
 }
-*/
+
+.field_form{
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: black;
+  width:100%;
+  margin-bottom:20px;
+  height: 38px;
+  padding: 0px 10px;
+}
+
+.form_footer{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.form_izq{
+  width:49%;
+}
+
+.form_der{
+  width:49%;
+  margin-left: 2%;
+}
+
+.align_der{
+text-align: right;
+}
+
+.field_textarea{
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: black;
+  width:100%;
+  padding: 10px;
+}
+
+.azul_claro{
+  color: #00FFEE;
+}
+/*fin home*/
 
 
 @media only screen and (max-width:1200px) {
@@ -941,6 +978,16 @@ a {
 }
 
 @media only screen and (max-width:600px) {
+
+  .form_izq{
+  width:100%;
+}
+
+.form_der{
+  width:100%;
+  margin-left: 0;
+}
+
 
   .logo_ope{
   width: 100%;
