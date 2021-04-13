@@ -87,12 +87,34 @@ jQuery(function ($) {
 	}
   });
   
+
   // start all the timers
-  $('.timer').each(count);  
+  //$('.timer').each(count);  
   
   function count(options) {
 	var $this = $(this);
 	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
 	$this.countTo(options);
   }
+});
+
+$(document).ready(function() {
+    $(window).scroll( function(){
+		function count(options) {
+			var $this = $(this);
+			options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+			$this.countTo(options);
+		}
+		
+		var hacerConteo = $("#hacerConteo").val();
+		var topCifras = $("#cifra_visitantes").position().top;
+		var bottomScroll = $(this).scrollTop() +  $(window).height();
+		
+		console.log($(this).scrollTop(), topCifras, $(window).height());
+		if ( bottomScroll > topCifras && hacerConteo == 1) {
+			$('.timer').each(count);
+			$("#hacerConteo").val(0);
+		}
+         
+    });
 });
