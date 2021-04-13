@@ -110,11 +110,9 @@ $(document).ready(function() {
 		var topCifras = $("#cifra_visitantes").position().top;
 		var bottomScroll = $(window).height() - $(this).scrollTop() + 10;
 		
-		console.log(bottomScroll, topCifras);
 		if ( bottomScroll < topCifras && hacerConteo == 1) {
 			$('.timer').each(count);
 			$("#hacerConteo").val(0);
 		}
-         
     });
 });
