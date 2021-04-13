@@ -41,6 +41,10 @@
 	padding: 30px 10%;
 }
 
+
+
+/*Inicio Quienes somos*/
+
 .listado{
 	background-color: #041328;
 	width: 20%;
@@ -50,7 +54,7 @@
 	color: #fff;
 	text-align: right;
     padding: 15px 30px;
-    font-size: 3vh;
+  font-size: 1.4em;
     font-weight: 700;
 }
 
@@ -93,6 +97,7 @@
 	width:100%;
 }
 
+/*Fin  Quienes somos*/
 
 
  /* SEDE EN CIFRAS */
@@ -129,8 +134,8 @@
 }
 
 .destacado_cifras{
-	font-size: 4.5vh;
-	line-height: 4.8vh;
+  font-size: 2em;
+  line-height: 1.2em;
 	color: #fff;
 	font-style: italic;
 	width:100%;
@@ -138,8 +143,8 @@
 }
 
 .cifra_interactiva{
-	font-size: 10.2vh;
-	line-height: 10.8vh;
+  font-size: 5em;
+  line-height: 1.2em;
 	font-weight: 900;
 	color: #fff;
 	width:100%;
@@ -254,7 +259,7 @@
 }
 
 
-.contenedor_acordeon:hover .txt_acordeon_cifras {
+.contenedor_acordeon:hover .txt_acordeon_calidad {
 color: #fff;
 }
 
@@ -271,9 +276,9 @@ color: #fff;
     border-bottom: 12px solid #fff;
 }
 
-.txt_acordeon_cifras{
-	font-size: 2.6vh;
-	line-height: 3vh;
+.txt_acordeon_calidad{
+  font-size: 1em;
+  line-height: 1em;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	margin-left: 18px;

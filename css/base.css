@@ -207,8 +207,8 @@ a {
 
 
 .titulo{
-    font-size: 6.5vh;
-    line-height: 7vh;
+    font-size: 3.2em;
+    line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #041328;
@@ -217,8 +217,8 @@ a {
 }
 
 .titulo_blanco {
-    font-size: 6.5vh;
-    line-height: 7vh;
+    font-size: 3.2em;
+    line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #fff;
@@ -227,8 +227,8 @@ a {
 }
 
 .titulo_azul {
-    font-size: 6.5vh;
-    line-height: 7vh;
+    font-size: 1em;
+    line-height: 1em;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #00ffee;
@@ -238,8 +238,8 @@ a {
 }
 
 .subtitulo{
-    font-size: 4.5vh;
-    line-height: 5vh;
+    font-size: 1.8em;
+    line-height: 1.2em;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #041328;
@@ -248,8 +248,8 @@ a {
 }
 
 .subtitulo_blanco{
-    font-size: 4.5vh;
-    line-height: 5vh;
+    font-size: 1.8em;
+    line-height: 1.2em;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #fff;
@@ -258,30 +258,31 @@ a {
 }
 
 .parrafo{
-    font-size: 2.8vh;
-    line-height: 3.2vh; 
+    font-size: 1.2em;
+    line-height: 1.2em;
     color: #8e8e8e;
-    width: 80%;
+    width: 100%;
+    text-align: justify;
 }
 
 .parrafo_blanco{
-    font-size: 2.8vh;
-    line-height: 3.2vh; 
+    font-size: 1.2em;
+    line-height: 1.2em;
     color: #fff;
     width: 100%;
 }
 
 .parrafo_italic {
-    font-size: 2.8vh;
+    font-size: 1.2em;
+    line-height: 1.2em;
     font-style: italic;
-    line-height: 3.2vh;
     color: #8e8e8e;
 }
 
 
 .fontsize_14{
-  font-size: 2.2vh;
-  line-height: 3vh;
+  font-size: 1em;
+  line-height: 1.2em;
 }
 
 .text_center{
@@ -305,8 +306,8 @@ a {
 .p_link{
   color: #00b6d5;
   font-style: italic;
-  font-size: 2.4vh;
-  line-height: 3vh;
+  font-size: 1em;
+  line-height: 1.2em;
   text-decoration: underline;
   text-align: center;
 }
@@ -423,8 +424,8 @@ a {
 
 
 .text_campos{
-    font-size: 3vh;
-  line-height: 3vh;
+  font-size: 1.4em;
+  line-height: 1em;
   color: #fff;
   text-transform: uppercase;
   padding: 100px 40px 28px 40px;
@@ -580,8 +581,8 @@ a {
   border: 1px solid #041328;
   color: #fff;
   text-transform: uppercase;
-  font-size: 2.6vh;
-  line-height: 3vh;
+  font-size: 1em;
+  line-height: 1.2em;
   letter-spacing: 8px;
   -webkit-transition: color 900ms, background-color 900ms;
   -moz-transition: color 900ms, background-color 900ms;
@@ -603,8 +604,8 @@ a {
   border: 1px solid #fff;
   color: #041328;
   text-transform: uppercase;
-  font-size: 2.6vh;
-  line-height: 3vh;
+  font-size: 1em;
+  line-height: 1.2em;
   letter-spacing: 8px;
   -webkit-transition: color 900ms, background-color 900ms;
   -moz-transition: color 900ms, background-color 900ms;
@@ -761,7 +762,7 @@ a {
 .cont_footer{
   background-color: #041328;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
 
 }
@@ -775,7 +776,7 @@ a {
 
 .cont_footer2{
   display: flex;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
@@ -783,16 +784,16 @@ a {
 
 .text_footer{
   color: #fff;
-  font-size: 2.6vh;
-  line-height: 3vh;
+  font-size: 1.2em;
+  line-height: 1.2em;
   text-transform: uppercase;
   letter-spacing: 8px;
 }
 
 .text_footer_azul{
   color: #041328;
-  font-size: 2.6vh;
-  line-height: 3vh;
+  font-size: 1.2em;
+  line-height: 1.2em;
   text-transform: uppercase;
   letter-spacing: 8px;
 }
@@ -803,8 +804,8 @@ a {
 
 .texto_slider {
     display: none;
-    font-size: 1.8vh;
-    line-height: 2.2vh;
+    font-size: 0.8em;
+    line-height: 1.2em;
     padding: 20px 20px;
 }
 
