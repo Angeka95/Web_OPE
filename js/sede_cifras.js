@@ -108,10 +108,10 @@ $(document).ready(function() {
 		
 		var hacerConteo = $("#hacerConteo").val();
 		var topCifras = $("#cifra_visitantes").position().top;
-		var bottomScroll = $(this).scrollTop() +  $(window).height();
+		var bottomScroll = $(window).height() - $(this).scrollTop() + 10;
 		
-		console.log($(this).scrollTop(), topCifras, $(window).height());
-		if ( bottomScroll > topCifras && hacerConteo == 1) {
+		console.log(bottomScroll, topCifras);
+		if ( bottomScroll < topCifras && hacerConteo == 1) {
 			$('.timer').each(count);
 			$("#hacerConteo").val(0);
 		}
