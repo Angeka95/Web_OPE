@@ -45,7 +45,9 @@ body {
 .slide-content {
 	color: #fff;
 	margin: 0vw 20px;
+	
 }
+
 
 .slide-date {
 	color: #0a8acb;
@@ -61,6 +63,8 @@ body {
 	letter-spacing: 0.1vh;
 	line-height: 2.3vh;
 	padding-bottom: 1.8vw;
+	text-align: left !important;
+	text-transform: uppercase;
 }
 
 .slide-text {

@@ -12,12 +12,17 @@ main.tx-unal-accesibilidad .panel-content {
 
 #name-office {
 	font-family: 'Ancizar sans';
-	padding: 20px 5% 20px 0px;
+	padding: 13px 5% 13px 0px;
 	text-align: right;
 	background: #041328;
 	display: flex;
     justify-content: flex-end;
 }
+
+#name-office:hover {
+	text-decoration: none !important;
+}
+
 
 #name-office h2 {
 	font-size: 0.8em;
@@ -27,10 +32,13 @@ main.tx-unal-accesibilidad .panel-content {
 	letter-spacing: 0.1em;
 }
 
+
+
+
 #name-office h2 a {
 	color: #fff;
 	font-family: 'Ancizar sans';
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 .tx-unal-accesibilidad {

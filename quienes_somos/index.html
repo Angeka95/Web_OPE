@@ -283,7 +283,7 @@
          </nav>
          <!-- name office -->
             <div id="name-office">
-            <a href="../"> 
+            <a href="../" class="OPE_logo_min" > 
                 <h2><strong>OFICINA DE PLANEACIÓN Y ESTADÍSTICA</strong></br>
                 <div class="cont_name">  
                   <div class="circulo_azul"> </div> 
@@ -353,11 +353,17 @@
         
          <div class="cont_cabezote_descripcion">
             <div class="container"> 
-                  <div class="cabezote_descripcion parrafo_italic margin_left margin_right text_center">La Oficina de Planeación y Estadística de la Sede Bogotá - OPE, somos los encargados de participar, coordinar e integrar los procesos de planeación de la Universidad en la Sede y de asesorar a las dependencias en la implementación de políticas y reglamentaciones del Plan Estratégico Institucional, el Plan Global de Desarrollo y del Plan de Acción Institucional.
+                  <div class="cabezote_descripcion margin_left margin_right text_center">La Oficina de Planeación y Estadística de la Sede Bogotá - OPE, somos los encargados de participar, coordinar e integrar los procesos de planeación de la Universidad en la Sede y de asesorar a las dependencias en la implementación de políticas y reglamentaciones del Plan Estratégico Institucional, el Plan Global de Desarrollo y del Plan de Acción Institucional.
             </div>
             </div>
          </div>
       </section>
+
+   <section>
+      <div class="container"> 
+      <div class="breadcrumb-class">Está en:<a href="../" target="_self" title="Inicio">Inicio</a>/<span>Quienes Somos</span></div>
+      </div>
+   </section>
 
       <section id="funciones"> 
          <div class="container">
@@ -367,6 +373,8 @@
             <div class="linea_subtitulo margin_bottom_min">
             </div>
             <p class="parrafo  margin_bottom_min_min">Conforme al <span class="p_destacado">artículo 15 del Acuerdo 164 de 2014 del CSU</span>, corresponde a la OPE:</p>
+         </div>
+
          </div>
 
          <div class="cont_listado padding_top_min ">
@@ -557,20 +565,62 @@ Bogotá D.C., Colombia
    </section>
 
 
-      <section class="footer">
+       
+      <section class="footer"> 
          <div class="linea_gradient"></div>
          <div class="cont_footer">
-            <div class="container">
+            <div class="container">  
             <div class="margen_complete_footer cont_footer2">
                <h3 class="text_footer">¿Tiene alguna duda o sugerencia?
                </h3>
-               <div class="btn_blanco">
-               pregúntenos
+               <div class="btn_center_responsive">
+                     <a  onclick="$('#formulario').slideToggle('slow')" >
+                     <div class="btn_blanco espacio_sup_responsive">
+                     pregúntenos
+                     </div>
+                     </a>
                </div>
             </div>
 
+         <!-- Formulario -->
+         <div id="formulario" class="oculto"> 
+            <form>
+            <div class="form_footer">
+            <div class="form_izq">
+               <label for="name" class="tit_form">Nombre completo <span class="azul_claro">*</span></label></br>
+               <input id="name" class="field_form" name="user_name" type="text"></br>
+               <label for="mail" class="tit_form">Correo electrónico <span class="azul_claro">*</span></label></br>
+               <input id="mail" class="field_form" name="user_mail" type="text"></br>
+               <label for="phone" class="tit_form">Teléfono </label></br>
+               <input id="phone" class="field_form" name="user_phone" type="text"></br>
+            </div>
+            <div class="form_der">
+               <label for="msg" class="tit_form">Pregunta o comentario <span class="azul_claro">*</span></label></br>
+               <textarea id="nmsg" class=" field_textarea" name="user_message" rows="9" placeholder="Escriba su pregunta o comentario"></textarea>
+            </div>
+            </div>
+            </form>
+         
+
+         <div class="center width_100 ">
+                  <div class="btn_blanco  margin_bottom_min">
+                  enviar
+                  </div>
+         </div>
+
+         <div class="center width_100 margin_bottom_min">
+            <p class="parrafo_blanco text_center ">Para nosotros es importante conocer sus opiniones.</br>
+A vuelta de correo tendremos el placer de contestar sus dudas.
+            </p>
+         </div>
+         <!-- Fin Formulario -->
+
+
+            </div>
          </div>
          </div>
+
+
       </section>
 
 

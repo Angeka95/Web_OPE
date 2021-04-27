@@ -14,6 +14,8 @@
     flex-wrap: wrap;
 }
 
+/*Cabezotes secciones*/
+
 .bck_secciones_quienes{
 	background-image: url(../images/quienes_somos/bck.jpg);
 }
@@ -26,19 +28,62 @@
 	background-image: url(../images/gestion_calidad/bck.jpg);
 }
 
+.bck_secciones_pgd{
+  background-image: url(../images/plan_global/bck.jpg);  
+}
+
+/*Fin Cabezotes secciones*/
+
+/*Imágenes modulo 1*/
+
+.img_home_pgd{
+  background-image: linear-gradient( 
+      rgb(2 9 22 / 10%), 
+      rgb(2 9 22 / 10%) ), 
+      url(../images/home/modulo1_img1.jpg);
+}
+
+.img_home_pgd2{
+   background-image: linear-gradient( 
+    rgb(2 9 22 / 10%), 
+    rgb(2 9 22 / 10%) 
+    ),  
+    url(../images/home/modulo1_img2.jpg);
+}
+
+.img_calidad_casos{
+  background-image: linear-gradient( 
+      rgb(2 9 22 / 10%), 
+      rgb(2 9 22 / 10%) ), 
+      url(../images/gestion_calidad/casos_exito_1.jpg);
+}
+
+.img_calidad_casos2{
+   background-image: linear-gradient( 
+    rgb(2 9 22 / 10%), 
+    rgb(2 9 22 / 10%) 
+    ),  
+    url(../images/gestion_calidad/casos_exito_2.jpg);
+}
+
+/*Fin imágenes modulo 1*/
+
 .cabezote_tit_secciones{
 	background-color: #041328;
-	padding: 30px 0px;
+	padding: 20px 0px;
 }
 
 .cont_cabezote_descripcion{
-	padding: 20px 0px;
-	background-color: #f2f2f2;
+	padding: 10px 0px;
+	background-color: #fff;
 }
 
 .cabezote_descripcion{
-	width: 80%;
-	padding: 30px 10%;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    font-style: italic;
+     color: #8e8e8e;
+     margin: 10px 15% 0px 15%;
 }
 
 
@@ -179,7 +224,7 @@
     background-size: cover;
     background-position: center;
     height: 350px;
-    border: 3px solid #fff;
+/*    border: 0px solid #fff;*/
 }
 .borde_img1_cifras1{
   margin: 14px;
@@ -207,13 +252,11 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 350px;
-    border: 3px solid #fff;
 }
 
 .cont_slider_cifras {
 	width: 100%;
     overflow-x: hidden;
-    /*margin-left: 5%;*/
     overflow-y: hidden;
 }
 
@@ -241,17 +284,18 @@
  /* CALIDAD */
 
 .contenedor_acordeon{
-	border: 1px solid #041328;
+
 	padding: 20px;
 	display: flex;
 	align-items: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .contenedor_acordeon:hover{
   background-color: #041328;
-  border: 1px solid #041328;
+  border: none;
     -webkit-transition: color 900ms, background-color 900ms;
   -moz-transition: color 900ms, background-color 900ms;
   -o-transition: color 900ms, background-color 900ms;
@@ -276,12 +320,62 @@ color: #fff;
     border-bottom: 12px solid #fff;
 }
 
+
+.contenedor_acordeon2{
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  cursor: pointer; 
+}
+
+.contenedor_acordeon2:hover{
+  background-color: #041328;
+  border: none;
+    -webkit-transition: color 900ms, background-color 900ms;
+  -moz-transition: color 900ms, background-color 900ms;
+  -o-transition: color 900ms, background-color 900ms;
+  transition: color 900ms, background-color 900ms;
+}
+
+.contenedor_acordeon2:hover .txt_acordeon_calidad2 {
+color: #fff;
+}
+
+.contenedor_acordeon2:hover .icon_acordeon2 {
+    border-left: 12px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.contenedor_acordeon2:hover .icon_acordeon_active {
+  border-right: 8px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 12px solid #fff;
+}
+
+
+
+
 .txt_acordeon_calidad{
   font-size: 1em;
   line-height: 1em;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	margin-left: 18px;
+
+}
+
+.txt_acordeon_calidad2{
+  font-size: 1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 18px;
+  color: #00b6d5;
 
 }
 
@@ -293,6 +387,15 @@ color: #fff;
     border-bottom: 8px solid transparent;
 }
 
+.icon_acordeon2 {
+     width: 0; 
+     height: 0; 
+    border-left: 12px solid #00b6d5;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+
 .icon_acordeon_active {
      width: 0; 
      height: 0; 
@@ -300,6 +403,14 @@ color: #fff;
     border-top: 0px solid transparent;
     border-left: 8px solid transparent;
     border-bottom: 12px solid #041328;
+}
+
+.cont_linea_acordeon{
+  width:100%;
+}
+
+.linea_acordeon{
+  border-bottom: 1px solid grey;
 }
 
 .contenedor_enlaces {
@@ -326,6 +437,376 @@ color: #fff;
 	width: 20%;
 }
 
+.cont_col_img_calidad{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+    padding-right: 2%;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 37px;
+
+}
+
+
+
+.cont_img_calidad{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left:1%;
+  margin-right: 1%;
+  margin-top:25px;
+  width:30%;
+}
+
+.img_tema1{
+  width: 100%;
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 30%), 
+    rgb(2 9 22 / 55%) 
+    ),  
+    url(../images/gestion_calidad/tema_1.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 210px;
+  cursor: pointer;
+}
+
+.img_tema1:hover{
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 15%), 
+    rgb(2 9 22 / 15%) 
+    ),  
+    url(../images/gestion_calidad/tema_1.jpg);
+  }
+
+.img_tema1:hover .border_temas_ii{
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+        -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+}
+
+
+
+
+.img_tema2{
+  width: 100%;
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 30%), 
+    rgb(2 9 22 / 55%) 
+    ),  
+    url(../images/gestion_calidad/tema_2.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 210px;
+  cursor: pointer;
+}
+
+.img_tema2:hover{
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 15%), 
+    rgb(2 9 22 / 15%) 
+    ),  
+    url(../images/gestion_calidad/tema_2.jpg);
+  }
+
+
+  .img_tema2:hover .border_temas_ic{
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+        -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+}
+
+.img_tema3{
+  width: 100%;
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 30%), 
+    rgb(2 9 22 / 55%) 
+    ),  
+    url(../images/gestion_calidad/tema_3.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 210px;
+  cursor: pointer;
+}
+
+.img_tema3:hover{
+  background-image: linear-gradient( 
+    rgb(2 9 22 / 15%), 
+    rgb(2 9 22 / 15%) 
+    ),  
+    url(../images/gestion_calidad/tema_3.jpg);
+  }
+
+
+
+  .img_tema3:hover .border_temas_id{
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+        -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+}
+
+  .text_temas_calidad{
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  /*padding: 96px 25px 13px 25px;*/
+  letter-spacing: 4px;
+  margin: 3%;
+}
+
+.borde_temas{
+  margin: 17px;
+  border: 1px solid #939393;
+  position:relative;
+  height: 82%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.border_temas_ii {
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 71%;
+    width: 40%;
+    height: 30%;
+}
+
+.border_temas_ic {
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 40%;
+    height: 30%;
+}
+
+
+.border_temas_id{
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 71%;
+    left: 60%;
+    width: 40%;
+    height: 30%;
+}
+
+.border_temas_ic_responsive {
+    display: none;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 71%;
+    left: 30%;
+    width: 40%;
+    height: 30%;
+}
+
 
 
  /* FIN CALIDAD */
+
+
+
+ /* PGD */
+
+.icon_memorias{
+  width:100%;
+}
+
+.cont_icon{
+  width: 20%;
+}
+
+.cont_memorias{
+  width:25%;
+  display: flex;
+  flex-wrap:wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.cont_general_memorias{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text_memorias{
+
+  width: 75%;
+  margin-left:5%;
+
+  }
+
+  .content_botones_memorias{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+ /* FIN PGD */
+
+
+
+@media only screen and (max-width:1200px) {
+
+.cont_img_calidad{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left:1%;
+  margin-right: 1%;
+  margin-top:25px;
+  width:48%;
+}
+
+
+.borde_temas {
+    margin: 18px;
+    border: 1px solid #939393;
+    position: relative;
+}
+
+.img_tema1, .img_tema2, .img_tema3 {
+    height: 190px;
+}
+
+.border_temas_ic_responsive {
+    display: inline;
+}
+
+.border_temas_ic, .border_temas_ii, .border_temas_id {
+    display: none;
+}
+
+
+  .img_tema1:hover .border_temas_ic_responsive{
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+        -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+}
+
+  .img_tema2:hover .border_temas_ic_responsive{
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+        -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+}
+
+
+  .img_tema3:hover .border_temas_ic_responsive{
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+        -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width:1000px) {
+
+.cont_img_calidad{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left:1%;
+  margin-right: 1%;
+  margin-top:25px;
+  width:90%;
+      
+}
+
+.cont_col_img_calidad{
+  margin-bottom: 40px;
+}
+
+.borde_temas {
+    margin: 18px;
+    border: 1px solid #939393;
+    position: relative;
+}
+
+.img_tema1, .img_tema2, .img_tema3 {
+    height: 190px;
+
+}
+
+}
