@@ -336,7 +336,12 @@ color: #fff;
 }
 
 .contenedor_acordeon_active .txt_acordeon_calidad {
-color: #fff !important;
+color: #fff;
+margin-left: 14px;
+}
+
+.contenedor_acordeon_active .txt_acordeon_calidad2 {
+color: #fff;
 margin-left: 14px;
 }
 
