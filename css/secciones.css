@@ -1,11 +1,6 @@
-.contenedor_acordeon:hover{
-  border: 1px solid yellow;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}.bck_secciones{
+
+
+.bck_secciones{
     width: 100%;
     height: 150px;
     background-position: center;
@@ -31,6 +26,11 @@
 .bck_secciones_pgd{
   background-image: url(../images/plan_global/bck.jpg);  
 }
+
+.bck_secciones_pas{
+    background-image: url(../images/plan_accion/bck.jpg);  
+}
+
 
 /*Fin Cabezotes secciones*/
 
@@ -303,15 +303,19 @@
 
  /* CALIDAD */
 
-.contenedor_acordeon{
 
-	padding: 20px;
+
+.contenedor_acordeon{
+  width: 100%;
+	padding: 20px 20px 20px 80px;
 	display: flex;
 	align-items: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
   cursor: pointer;
+
 }
+
+
+
 
 .contenedor_acordeon:hover{
   background-color: #041328;
@@ -329,6 +333,8 @@
   -moz-transition: color 900ms, background-color 900ms;
   -o-transition: color 900ms, background-color 900ms;
   transition: color 900ms, background-color 900ms;
+  display: flex;
+  align-items: center;
 }
 
 .contenedor_acordeon:hover .txt_acordeon_calidad {
@@ -361,13 +367,11 @@ margin-left: 14px;
 
 
 .contenedor_acordeon2{
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 5%;
-  cursor: pointer; 
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer; 
 }
 
 .contenedor_acordeon2:hover{
@@ -682,6 +686,7 @@ color: #fff;
 
 
 
+
  /* FIN CALIDAD */
 
 
@@ -749,7 +754,7 @@ width:35%;
 
 
 .img_large{
-    width: 80%;
+    width: 90%;
     background-size: cover;
     background-position: center;
     height: 750px;
@@ -778,7 +783,7 @@ width:35%;
     border-top: 2px solid #ffffff;
 position: absolute;
     top: 14.7%;
-    left: 84.7%;
+    left: 90.7%;
     width: 8%;
     height: 9%;
 }
