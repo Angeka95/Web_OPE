@@ -66,6 +66,26 @@
     url(../images/gestion_calidad/casos_exito_2.jpg);
 }
 
+
+.img_pgd_1{
+   background-image: linear-gradient( 
+    rgb(2 9 22 / 10%), 
+    rgb(2 9 22 / 10%) 
+    ),  
+    url(../images/plan_global/pgd2019_2.jpg);
+}
+
+
+.img_pgd_2{
+  background-image: linear-gradient( 
+      rgb(2 9 22 / 10%), 
+      rgb(2 9 22 / 10%) ), 
+      url(../images/plan_global/pgd2019_1.jpg);
+}
+
+
+
+
 /*Fin imágenes modulo 1*/
 
 .cabezote_tit_secciones{
@@ -704,8 +724,64 @@ color: #fff;
     justify-content: center;
   }
 
+.cont_izq_etapas{
+
+width:65%;
+
+}
+
+.cont_general_etapas{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont_der_etapas{
+
+width:35%;
+}
+
+.cont_img_large{
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+}
 
 
+.img_large{
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    z-index: 2;
+    top: 88px;
+    border: 3px solid #fff;
+
+}
+
+.img_etapas_pgd{
+    background-image: linear-gradient( 
+      rgb(2 9 22 / 10%), 
+      rgb(2 9 22 / 10%) ), 
+      url(../images/home/modulo1_img1.jpg);
+}
+
+.borde_img_large{
+  margin: 14px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    height: 716px;
+}
+
+.borde_img_sd {
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+position: absolute;
+    top: 14.7%;
+    left: 84.7%;
+    width: 8%;
+    height: 9%;
+}
  /* FIN PGD */
 
 
