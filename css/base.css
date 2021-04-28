@@ -330,7 +330,7 @@ a {
 .p_link{
   color: #00b6d5;
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.2em;
   text-decoration: underline;
 }
@@ -338,17 +338,19 @@ a {
 .p_link2{
   color: #00b6d5;
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.2em;
   text-decoration: underline;
 }
 .p_link2:hover{
   color: #fff;
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.2em;
   text-decoration: underline;
 }
+
+
 
 .azul_claro{
   color: #00ffee;
