@@ -142,7 +142,7 @@
     ),
  url(../images/quienes_somos/equipo.jpg); 
 
-  background-size: cover;
+  background-size: auto;
   display: flex;
   flex-wrap: wrap;
 }
