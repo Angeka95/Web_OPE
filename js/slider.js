@@ -47,12 +47,12 @@
 
     });
 
-    
+    /*
      setInterval(function(){
        if($('.overlay-blue:hover').length == 0 && $('.arrow:hover').length == 0)
           $("#arrowNext").click();
      },3000);
-
+	*/
   });
 })(jQuery);
 

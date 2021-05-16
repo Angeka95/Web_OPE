@@ -15,9 +15,9 @@ body {
 }
 
 .slide {
-	width: 26vw;
+	width: 26em;
 	flex-wrap: wrap;
-	/* margin: 0vw 1vw; */
+	/* margin: 0em 1em; */
 	justify-content: center;
 }
 
@@ -26,78 +26,79 @@ body {
 }
 
 .slider-wrapper {
-	margin-top: 5vw;
-	margin-left: 11vw;
+	margin-top: 5em;
+	margin-left: 11em;
 }
 
 .slide-image {
-	height: 70vh;
-	margin: 0vw 20px;
+    height: 33em;
+    margin: 0em 20px;
 }
 
 .slide-image img {
-	width: 20vw;
-	cursor: pointer;
-	height: 26.8vw;
-	object-fit: cover;
+    width: 20em;
+    /* height: 50em; */
+    cursor: pointer;
+    height: 26em;
+    object-fit: cover;
 }
 
 .slide-content {
 	color: #fff;
-	margin: 0vw 20px;
+	margin: 0em 20px;
 	
 }
 
 
 .slide-date {
 	color: #0a8acb;
-	font-size: 1.1vw;
+	font-size: 1.1em;
 	font-weight: 400;
-	letter-spacing: 0.1vw;
-	padding-bottom: 1.4vw;
+	letter-spacing: 0.1em;
+	padding-bottom: 1.4em;
 }
 
 .slide-title {
-	font-size: 1.8vh;
-	font-weight: 400;
-	letter-spacing: 0.1vh;
-	line-height: 2.3vh;
-	padding-bottom: 1.8vw;
-	text-align: left !important;
-	text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    padding-bottom: 1.8em;
+    text-align: left !important;
+    text-transform: uppercase;
 }
 
 .slide-text {
-	font-size: 0.80vw;
-	line-height: 1.2vw;
+	font-size: 0.80em;
+	line-height: 1.2em;
 	opacity: 0.8;
-	padding-bottom: 4vw;
+	padding-bottom: 4em;
 }
 
 .slide-more {
 	font-weight: 400;
-	letter-spacing: 0.1vw;
+	letter-spacing: 0.1em;
 	float: left;
-	font-size: 0.9vw;
+	font-size: 0.9em;
 }
 
 .slide-bullet {
-	width: 0.5vw;
-	height: 0.5vw;
+	width: 0.5em;
+	height: 0.5em;
 	background-color: #0b8bcc;
 	border-radius: 200%;
 	position: relative;
-	margin-left: 1.2vw;
+	margin-left: 1.2em;
 }
 
 .slide-nav {
-	margin-left: 64vw;
-	margin-top: -5.5vw;
+	margin-left: 64em;
+	margin-top: -5.5em;
 }
 
 div.overlay-blue {
 	width: 100%;
-	height: 80.3%;
+	height: 78.7%;
 	position: absolute;
 	top: 0;
 	transition: 0.5s ease all;
@@ -108,21 +109,21 @@ div.overlay-blue:hover {
 }
 
 .arrows {
-	width: 5vw;
-	margin-top: -10vh;
-	margin-left: 20vw;
+	width: 5em;
+	margin-top: -5em;
+	margin-left: 20em;
 	position: absolute;
 }
 
 .arrow {
 	display: inline-block;
 	position: absolute;
-	width: 1.2vw;
-	height: 1.2vw;
+	width: 1.2em;
+	height: 1.2em;
 	background: transparent;
 	text-indent: -9999px;
-	border-top: 0.15vw solid #fff;
-	border-left: 0.15vw solid #fff;
+	border-top: 0.15em solid #fff;
+	border-left: 0.15em solid #fff;
 	transition: all .1s ease-in-out;
 	text-decoration: none;
 	color: transparent;
@@ -130,7 +131,7 @@ div.overlay-blue:hover {
 
 .arrow:hover {
 	border-color: #00ffee;
-	border-width: 0.25vw;
+	border-width: 0.25em;
 }
 
 .arrow:before {
@@ -157,34 +158,34 @@ div.overlay-blue:hover {
 
 
 	.slide {
-		width: 55vw;
+		width: 55em;
 	}
 	.slide-image img {
-		width: 40vw;
-		height: 46.8vw;
+		width: 40em;
+		height: 46.8em;
 		cursor: pointer;
 	}
 
 
 	.slide-image {
-		height: 40vw;
-		margin: 0vw 1vw;
+		height: 40em;
+		margin: 0em 1em;
 	}
 	.arrow {
-		width: 3.2vw;
-		height: 3.2vw;
+		width: 3.2em;
+		height: 3.2em;
 	}
 	.arrows {
-		width: 10vw;
-		margin-left: 27.5vw;
-		margin-top: 11vh;
+		width: 10em;
+		margin-left: 27.5em;
+		margin-top: 5em;
 	}
 }
 
 @media only screen and (max-width:600px) {
 	.arrows {
-		width: 10vw;
-		margin-left: 30.5vw;
+		width: 10em;
+		margin-left: 30.5em;
 		margin-top: 45px;
 	}
 }
