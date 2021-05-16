@@ -64,7 +64,7 @@ body {
     letter-spacing: 0.05em;
     line-height: 1.2em;
     padding-bottom: 1.8em;
-    text-align: left !important;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -161,31 +161,34 @@ div.overlay-blue:hover {
 		width: 55em;
 	}
 	.slide-image img {
-		width: 40em;
-		height: 46.8em;
+		width: 20em;
+		height: 28.8em;
 		cursor: pointer;
 	}
 
+	div.overlay-blue {
+		height: 71.9%;
+	}
 
 	.slide-image {
-		height: 40em;
+		height: 28.8em;
 		margin: 0em 1em;
 	}
 	.arrow {
-		width: 3.2em;
-		height: 3.2em;
+		width: 2em;
+		height: 2em;
 	}
 	.arrows {
-		width: 10em;
-		margin-left: 27.5em;
-		margin-top: 5em;
+		width: 7em;
+		margin-left: 19.5em;
+		margin-top: 2em;
 	}
 }
 
 @media only screen and (max-width:600px) {
 	.arrows {
-		width: 10em;
-		margin-left: 30.5em;
-		margin-top: 45px;
+		width: 7em;
+		margin-left: 19.5em;
+		margin-top: 2em;
 	}
 }
